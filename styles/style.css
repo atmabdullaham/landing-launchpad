@@ -224,3 +224,52 @@ border-radius: 24px;
 .focus-section p{
     padding: 0 0 20px;
 }
+
+/* message */
+.message-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+fieldset label{
+    display: block;
+}
+.message-section h1{
+    font-weight: 700;
+    font-size: 70px;
+    
+}
+
+.message-section h1, .form-container{
+    flex: 1;
+}
+
+form input, textarea{
+    background-color: #FFFFFF;
+    padding: 20px 32px;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px; 
+    resize: none;
+}
+
+form label{
+    font-family: inter;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0 5px;
+}
+
+form fieldset{
+    border: none;
+}
+form input::placeholder{
+    font-size: 20px;
+    font-weight: 400;
+}
+#message-button{
+    display: block;
+    width: 95%;
+    margin: 0 15px;
+}
