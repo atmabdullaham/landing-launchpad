@@ -83,19 +83,28 @@ main{
     background-color: #F5F8FF;
 }
 
-.action-section{
+.section-title{
+    font-size: 36px;
+    font-weight: 700;
+    
+    
+}
+
+/* common section */
+.common{
     width: 1140px;
     margin: auto;
+    margin-bottom: 100px;
+
+}
+/* Action Section */
+.action-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
     
 }
-.action-section h3{
-    font-weight: 700;
-    font-size: 36px;
 
-}
 .action-section p{
     font-weight: 400;
     font-size: 24px;
@@ -104,4 +113,41 @@ main{
 }
 .action-section img{
     border-radius: 30px;
+}
+
+/* State container */
+.stat-section{
+background-color: #4E47FF1A;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 24px;
+}
+.stat-container{
+ display: flex;
+ gap: 150px;
+ padding-bottom: 40px;
+
+}
+.stat-container h1{
+    color: #4E47FF;
+    font-weight: 700;
+    font-size: 60px;
+    font-family: inter;
+    margin: 0;
+    padding: 0;
+}
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.stat p{
+    margin: 0;
+    padding: 0;
+    color: #00000080;
+    font-size: 24px;
 }
