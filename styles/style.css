@@ -79,7 +79,7 @@ button{
 main{
     
     margin: auto;
-    padding: 110px 0;
+    padding: 110px 0 40px;
     background-color: #F5F8FF;
 }
 
@@ -272,4 +272,38 @@ form input::placeholder{
     display: block;
     width: 95%;
     margin: 0 15px;
+}
+
+/* footer */
+.footer-section{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    gap: 15px;
+}
+.footer-section h1{
+    color: #4E47FF;
+    font-weight: 900;
+    font-size: 80px;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: inter;
+}
+.footer-section p{
+    width: 500px;
+}
+#footer-nav ul{
+    display: flex;
+    gap: 15px;
+    color: #8987A1;
+}
+#footer-nav li{
+    list-style: none;;
+}
+#footer-nav a{
+    text-decoration: none;
+    color: #8987A1;
 }
