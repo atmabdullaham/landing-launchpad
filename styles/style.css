@@ -30,14 +30,15 @@
     font-size: 34px;
     text-transform: uppercase;
     font-family: inter;
-    border: 1px gray dashed;
+    border: 1px dashed rgba(0, 0, 0, 0.2);
     padding: 5px;
 }
 header{
     background-image: url('../assets/Hero-bg.png');
     background-position: center;
     height: 690px;
-    border: 1px dashed gray;
+    border: 1px dashed rgba(0, 0, 0, 0.2);
+    
 }
 
 body{
@@ -55,9 +56,6 @@ body{
     justify-items: center;
     margin: auto;
     margin-top: 130px   ;
-    
- 
-    
 }
 .banner h1{
     font-weight: 700;
@@ -68,11 +66,21 @@ body{
 button{
     background: #4E47FF;
     color: white;
-    border: none;
+    border: 1px solid #4E47FF;
     padding: 12px 36px;
     border-radius: 10px;
     font-weight: 500;
     font-size: 14px;
+
+}
+button:hover{
+        background: white;
+        color: #4E47FF;
+        border: 1px solid #4E47FF;
+        padding: 12px 36px;
+        border-radius: 0px;
+        font-weight: 500;
+        font-size: 14px;
 }
 
 /* main Sections */
@@ -110,9 +118,21 @@ main{
     font-size: 24px;
     color: #25243280;
     width: 500px;
+    padding-bottom: 15px;
 }
 .action-section img{
     border-radius: 30px;
+    height: auto;
+    width: 100%;
+    display: block;
+    
+    
+}
+.action-img-container{
+    border: 1px dashed rgba(0, 0, 0, 0.1);
+    
+    
+    
 }
 
 /* State container */
@@ -193,7 +213,7 @@ border-radius: 24px;
     border-radius: 50%;
     
 }
-.reviewer h5, p {
+.reviewer h5, p{
     margin: 0;
     padding: 0;
     color: #757575;
@@ -201,6 +221,7 @@ border-radius: 24px;
 .review p{
     color: #1E1E1E;
     text-align: justify;
+    color: #757575;
     
 }
 
@@ -237,8 +258,9 @@ fieldset label{
 .message-section h1{
     font-weight: 700;
     font-size: 70px;
-    
+
 }
+
 
 .message-section h1, .form-container{
     flex: 1;
@@ -264,7 +286,7 @@ form label{
 form fieldset{
     border: none;
 }
-form input::placeholder{
+form textarea::placeholder, input::placeholder{
     font-size: 20px;
     font-weight: 400;
 }
