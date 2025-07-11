@@ -37,6 +37,7 @@ header{
     background-image: url('../assets/Hero-bg.png');
     background-position: center;
     height: 690px;
+    border: 1px dashed gray;
 }
 
 body{
@@ -72,4 +73,35 @@ button{
     border-radius: 10px;
     font-weight: 500;
     font-size: 14px;
+}
+
+/* main Sections */
+main{
+    
+    margin: auto;
+    padding: 110px 0;
+    background-color: #F5F8FF;
+}
+
+.action-section{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.action-section h3{
+    font-weight: 700;
+    font-size: 36px;
+
+}
+.action-section p{
+    font-weight: 400;
+    font-size: 24px;
+    color: #25243280;
+    width: 500px;
+}
+.action-section img{
+    border-radius: 30px;
 }
